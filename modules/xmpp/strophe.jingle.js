@@ -1,5 +1,6 @@
-/* global $, __filename */
+/* global __filename */
 
+import $ from 'jquery'
 import { getLogger } from 'jitsi-meet-logger';
 import { $iq, Strophe } from 'strophe.js';
 

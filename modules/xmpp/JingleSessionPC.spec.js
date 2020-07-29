@@ -1,4 +1,4 @@
-/* global $, jQuery */
+import $ from 'jquery'
 import { MockRTC } from '../RTC/MockClasses';
 
 import JingleSessionPC from './JingleSessionPC';

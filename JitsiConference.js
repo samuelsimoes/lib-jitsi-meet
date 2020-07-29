@@ -1,5 +1,6 @@
-/* global __filename, $, Promise */
+/* global __filename, Promise */
 
+import $ from 'jquery'
 import EventEmitter from 'events';
 import { getLogger } from 'jitsi-meet-logger';
 import isEqual from 'lodash.isequal';
